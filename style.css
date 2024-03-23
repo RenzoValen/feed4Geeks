@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #fafafa; 
+}
+
+.container {
+  max-width: 800px;
+}
+
+.post {
+  box-sizing: border-box;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  background-color: #fff; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.username {
+  font-weight: bold;
+  text-align: left;
+}
